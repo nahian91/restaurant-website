@@ -23,6 +23,38 @@ body{
   background-color: #f4f4f4;
 }
 
+/* Button */
+.btn {
+  text-transform: uppercase;
+  font-size: 16px;
+  background-color: #ff2828;
+  color: #fff !important;
+  padding: 10px 20px;
+  transition: .3s;
+  font-weight: 600;
+}
+.btn:hover{
+  border-radius: 7px;
+}
+
+/* Section Title */
+.section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.section-title span {
+  display: block;
+  font-size: 20px;
+}
+.section-title h4 {
+	font-size: 50px;
+	margin: 25px 0;
+	text-transform: uppercase;
+	color: #ff2828;
+	font-weight: 700;
+}
+
+/* Header */
 .header-area {
   padding: 20px 0;
   transition: .3s;
@@ -65,19 +97,8 @@ body{
   color: #333;
   margin-left: 5px;
 }
-.btn {
-  text-transform: uppercase;
-  font-size: 16px;
-  background-color: #ff2828;
-  color: #fff !important;
-  padding: 10px 20px;
-  transition: .3s;
-  font-weight: 600;
-}
-.btn:hover{
-  border-radius: 7px;
-}
 
+/* Bannar */
 .bannar-area {
   background-size: cover;
   background-position: center;
@@ -113,27 +134,14 @@ body{
 .bannar-content p {
 	margin-bottom: 20px;
 }
+
+/* Foods */
 .foods-area {
   padding: 100px 0;
   background-size: cover;
   background-position: center;
   position: relative;
   z-index: 2;
-}
-.section-title {
-  text-align: center;
-  margin-bottom: 60px;
-}
-.section-title span {
-  display: block;
-  font-size: 20px;
-}
-.section-title h4 {
-	font-size: 50px;
-	margin: 25px 0;
-	text-transform: uppercase;
-	color: #ff2828;
-	font-weight: 700;
 }
 .foods {
   display: flex;
@@ -157,7 +165,6 @@ body{
   padding: 20px 20px 60px 20px;
   margin-bottom: 30px;
 }
-
 .food-box img {
   border-radius: 50%;
   margin-right: 15px;
@@ -200,6 +207,7 @@ body{
 	align-items: center;
 }
 
+/* Teams */
 .teams-area {
   background-color: #333;
   padding: 100px 0;
@@ -239,6 +247,8 @@ body{
   margin-top: 5px;
   font-weight: 400;
 }
+
+/* Gallery */
 .gallery-area {
   padding: 100px 0;
 }
@@ -256,6 +266,7 @@ body{
   padding: 3px;
 }
 
+/* Speciality */
 .speciality-area {
   padding: 100px 0;
 }
@@ -309,6 +320,7 @@ body{
   cursor: pointer;
 }
 
+/* Footer */
 .footer-area {
   padding: 60px 0;
   background-color: #333;
@@ -354,6 +366,7 @@ body{
   margin-bottom: 8px;
 }
 
+/* Contact */
 .single-contact {
   display: flex;
   align-items: center;
@@ -379,6 +392,7 @@ body{
   margin-top: 30px;
 }
 
+/* About */
 .about-area {
   padding: 100px 0;
 }
@@ -414,6 +428,7 @@ body{
   padding-bottom: 5px;
 }
 
+/* Foods */
 .foods-area:after {
   position: absolute;
   content: "";
@@ -430,6 +445,7 @@ body{
   color: #fff;
 }
 
+/* Footer */
 .footer-area {
   background-size: cover;
   background-position: center;
@@ -452,6 +468,8 @@ body{
 	cursor: pointer;
 	display: none;
 }
+
+/* Responsive */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .container{
     width: 970px;
@@ -465,10 +483,6 @@ body{
   .menu-icon{
     display: block;
   }
-  
-.menu {
-  
-}
 .menu ul {
   background-color: #ddd;
   width: 100%;
